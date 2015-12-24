@@ -8,15 +8,8 @@
   <span class="author" itemprop="copyrightHolder">{{ config.author }}</span>
 </div>
 
-<div class="powered-by">
-  {{ __('footer.powered', '<a class="theme-link" href="http://hexo.io">Hexo</a>') }}
-</div>
-
 <div class="theme-info">
-  {{ __('footer.theme') }} -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT{% if theme.scheme %}.{{ theme.scheme }}{% endif %}
-  </a>
+  如果有一个怀抱勇敢不记代价，别让我飞，将我温柔豢养.·*
 </div>
 
 {% block footer %}{% endblock %}
