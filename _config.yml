@@ -11,7 +11,7 @@ language: zh-Hans
 timezone:
 
 #USER
-avatar: /images/avatar.jpg
+avatar: /images/avatar.png
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
