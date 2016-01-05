@@ -17,10 +17,10 @@ Android庞大的知识体系，都在下面这张图里了，想要一统Android
 
 ![knowledge_system_android](/imgs/knowledge_system_android.png)
 
-（暂时没有找到进阶图等，待日后找到了再来分享。）
+（暂时没有找到进阶图等，待日后找到了再来分享。也谢谢大家提供给我哦~）
 
 ## 我的日常
-Android萌级小菜鸟，现在也没有什么可以分享的，就献上我平时常逛的一些技术论坛，网页等一系列吧：
+Android萌级小菜鸟，现在也没有什么可以分享的，就献上我平时常逛的和我收藏的一些技术论坛，网页等一系列吧：
 
 - Android开发工具库：
 
@@ -44,6 +44,22 @@ Android萌级小菜鸟，现在也没有什么可以分享的，就献上我平�
 
 	[Android Gems](http://www.android-gems.com/)
 
+- 云数据
+
+	[apix](http://www.apix.cn/)
+
+	[聚合数据](https://www.juhe.cn/)
+
+- 云服务
+
+	[Bmob](http://www.bmob.cn/)
+
+	[Parse](https://parse.com/)
+
+	[极光推送](https://www.jpush.cn/)
+
+	[LeanCloud](https://leancloud.cn/)
+
 - Android UI设计
 
 	[UI4App](http://www.ui4app.com/)
@@ -52,7 +68,29 @@ Android萌级小菜鸟，现在也没有什么可以分享的，就献上我平�
 
 	[Calltoidea](http://www.calltoidea.com/)
 
+	[花瓣](http://huaban.com/)
+
+	[UI中国](http://www.ui.cn/)
+
+	[按钮生成器](http://angrytools.com/android/button/)
+
+	[dp计算器](http://angrytools.com/android/pixelcalc/)
+
+- 图标设计
+
 	[Icons4Android](http://www.icons4android.com/)
+
+	[IconPng](http://www.iconpng.com/)
+
+	[Fontello](http://fontello.com/)
+
+- 颜色
+
+	[Color Hunt](http://www.colorhunt.co/)
+
+	[日本の伝統色](http://nipponcolors.com/)
+
+	[Colours](http://webcolourdata.com/)
 
 - 网络教程
 
@@ -60,7 +98,29 @@ Android萌级小菜鸟，现在也没有什么可以分享的，就献上我平�
 
 	[极客学院](http://www.jikexueyuan.com/)
 
-暂时就先这么多吧，这些基本也可以满足Android程序猿的日常需求了。
+- 内测托管
+
+	[爱内测](http://www.ineice.com/)
+
+	[Fir.im](http://fir.im/)
+
+- 加密加壳
+
+	[爱加密](http://www.ijiami.cn/)
+
+- 快速开发集成
+
+	[Mob](http://www.mob.com/)
+
+	[APICloud](http://www.apicloud.com/)
+
+	[AppCan](http://www.appcan.cn/)
+
+	[听云](http://www.tingyun.com/)
+
+	[CrossApp](http://crossapp.9miao.com/)
+
+暂时就先这么多吧（日后也会慢慢的再完善），这些基本也可以满足Android程序猿的日常需求了。
 
 ## 后记
 我正在这条路上走着。
