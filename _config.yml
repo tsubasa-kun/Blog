@@ -74,3 +74,9 @@ deploy:
   type: git
   repo: https://github.com/tsubasa-kun/tsubasa-kun.github.io.git
   branch: master
+
+# SiteMap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
