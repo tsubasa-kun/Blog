@@ -17,7 +17,7 @@ categories:
 <!-- more -->
 
 ## 库结构图
-![cookie-library](http://7xt6qm.com1.z0.glb.clouddn.com/Cookie-Library.png)
+![cookie-library](http://7xt6qm.com1.z0.glb.clouddn.com/Cookie-Library_201606291.png)
 
 ## 库结构介绍
 整个库的名字叫做cookie-library，整个结构包括了Activity，Adapter，Application，Fragment，Interface，NetWork，Utils，Widget。
@@ -29,6 +29,10 @@ categories:
 ### Adapter
 - CommonAdapter：万能适配器
 - CommonViewHolder：配合万能适配器使用的ViweHolder
+- CommonRecyclerAdapter：RecycleView的通用适配器
+- CommonRecyclerViewHolder：配合RecycleView通用适配器的ViewHolder
+- OnRecyclerItemClickListener：RecycleView通用适配器的点击监听器接口
+- RecycleViewDivider：RecycleView的分割线
 
 ### Application
 - ActivityCollections：Activity的堆栈管理类
