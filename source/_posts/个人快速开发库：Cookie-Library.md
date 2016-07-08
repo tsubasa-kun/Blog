@@ -17,7 +17,7 @@ categories:
 <!-- more -->
 
 ## 库结构图
-![cookie-library](http://7xt6qm.com1.z0.glb.clouddn.com/Cookie-Library_201606292.png)
+![cookie-library](http://7xt6qm.com1.z0.glb.clouddn.com/Cookie-Library201607080957.png)
 
 ## 库结构介绍
 整个库的名字叫做cookie-library，整个结构包括了Activity，Adapter，Application，Fragment，Interface，NetWork，Utils，Widget。
@@ -65,16 +65,39 @@ categories:
 - AutoCardView：配合AutoLayout的CardView
 - ClearableEditText：带清空功能的编辑框
 - DateAndTimePicker：时间和日期选择器
-- ListViewForScrollView：适配ScrollView的ListView
+- MeasuredListView：自己适配高度的ListView，适用于嵌套在ScrollView内
+- MeasuredGridView：自己适配高度的GridView，适用于嵌套在ScrollView，ListView内
 - LoadAndRefreshView：上拉加载更多，下拉刷新控件
 - NoScrollViewPager：不可以滑动的ViewPager
 - RoundImageView：圆形ImageView
 
 ### 其他
-库内已经集成Material Design一系列支持库，GSON基础库，另外还有[EventBus](https://github.com/greenrobot/EventBus)，[AutoLayout](https://github.com/hongyangAndroid/AndroidAutoLayout)，[TextSurface](https://github.com/elevenetc/TextSurface)，[LikeButton](https://github.com/jd-alexander/LikeButton)，[MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)等一些优秀的库。
+库内已经集成Material Design一系列支持库，GSON基础库，另外还有:
+
+- [xUtils3](https://github.com/wyouflf/xUtils3)
+- [recyclerview-animators](https://github.com/wasabeef/recyclerview-animators)
+- [BaseRecyclerViewAdapterHelper](https://github.com/CymChad/BaseRecyclerViewAdapterHelper)
+- [EventBus](https://github.com/greenrobot/EventBus)
+- [AutoLayout](https://github.com/hongyangAndroid/AndroidAutoLayout)
+- [TextSurface](https://github.com/elevenetc/TextSurface)
+- [LikeButton](https://github.com/jd-alexander/LikeButton)
+- [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
+- [BlurView](https://github.com/Dimezis/BlurView)
+- [FlycoDialog](https://github.com/H07000223/FlycoDialog_Master)
+- [NiftyDialogEffects](https://github.com/sd6352051/NiftyDialogEffects)
+
+等一些优秀的库。
 
 ## 使用方法
 将库下载下来，将cookie-library作为Module导入项目即可。因为使用了其他的库，可能会报错，这个时候需要在app的build.gradle里加上如下代码即可：
+
+```
+defaultConfig {
+	...
+    renderscriptTargetApi 19
+    renderscriptSupportModeEnabled true
+}
+```
 
 ```
 repositories {
@@ -88,6 +111,4 @@ repositories {
 GitHub：[Cookie-Library](https://github.com/tsubasa-kun/Cookie-Library)
 
 ## 致谢
-灵感来自：[顾哥](https://github.com/NateRobinson)
-
-核心库：[xUtils3](https://github.com/wyouflf/xUtils3)
+灵感来自：[NateRobinson](https://github.com/NateRobinson)
